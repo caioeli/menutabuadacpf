@@ -1,4 +1,6 @@
-﻿using System;
+﻿using menutabuadacpf.cpf;
+using menutabuadacpf.View.tabusada;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,21 @@ namespace menutabuadacpf.View
         public Menu()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TelaTabuada tabuada = new TelaTabuada();
+
+            tabuada.ShowDialog();
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TelaCPF cpf = new TelaCPF();
+
+            cpf.ShowDialog();
         }
     }
 }

@@ -38,7 +38,7 @@ namespace menutabuadacpf.View.tabusada
             // 
             this.labeltit.AutoSize = true;
             this.labeltit.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labeltit.Location = new System.Drawing.Point(50, 58);
+            this.labeltit.Location = new System.Drawing.Point(61, 23);
             this.labeltit.Name = "labeltit";
             this.labeltit.Size = new System.Drawing.Size(229, 32);
             this.labeltit.TabIndex = 0;
@@ -46,7 +46,7 @@ namespace menutabuadacpf.View.tabusada
             // 
             // textBoxnum
             // 
-            this.textBoxnum.Location = new System.Drawing.Point(133, 132);
+            this.textBoxnum.Location = new System.Drawing.Point(141, 82);
             this.textBoxnum.Name = "textBoxnum";
             this.textBoxnum.Size = new System.Drawing.Size(50, 23);
             this.textBoxnum.TabIndex = 1;
@@ -54,12 +54,12 @@ namespace menutabuadacpf.View.tabusada
             // 
             // listBoxresult
             // 
-            this.listBoxresult.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.listBoxresult.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.listBoxresult.FormattingEnabled = true;
-            this.listBoxresult.ItemHeight = 30;
-            this.listBoxresult.Location = new System.Drawing.Point(70, 182);
+            this.listBoxresult.ItemHeight = 25;
+            this.listBoxresult.Location = new System.Drawing.Point(77, 140);
             this.listBoxresult.Name = "listBoxresult";
-            this.listBoxresult.Size = new System.Drawing.Size(190, 214);
+            this.listBoxresult.Size = new System.Drawing.Size(176, 204);
             this.listBoxresult.TabIndex = 2;
             this.listBoxresult.UseWaitCursor = true;
             this.listBoxresult.SelectedIndexChanged += new System.EventHandler(this.listBoxresult_SelectedIndexChanged);

@@ -21,22 +21,21 @@ namespace menutabuadacpf.View.tabusada
         {
             int numero = 0;
 
-            numero =Convert.ToInt32(textBoxnum.Text);
+            numero = Convert.ToInt32(textBoxnum.Text);
 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 11; i++)
             {
                 listBoxresult.Items.Add(numero + " x " + i + "=" + i * numero);
             }
 
-
+            textBoxnum.Focus();
 
         }
 
         private void LimparTela()
         {
             listBoxresult.Items.Clear();
-            textBoxnum.Clear();
-            textBoxnum.Focus();
+
         }
 
         private void textBoxnum_KeyPress(object sender, KeyPressEventArgs e)
